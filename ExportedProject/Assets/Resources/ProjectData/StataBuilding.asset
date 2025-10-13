@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c647ec9c5ec47b8ba15c4d5d0b1e822, type: 3}
+  m_Name: StataBuilding
+  m_EditorClassIdentifier: Assembly-CSharp::ProjectDataAsset
+  projectName: Stata Building
+  detailedDescription: "This is a 3D scan of the Stata Center at MIT, created initally
+    in 2019 for use in the aera lab's project 'Flightgoggles', a photorealistic simiulator
+    for testing drones. The environment (which was quite hard to find and get working)
+    has been repurposed for WebGL and is now playable as a 'game' where you can view
+    projects and find projects I made! I thought of this idea after touring/talking to members of their
+    lab (thanks Andrea :)). The point was to imagine if my projects were in this
+    building... oh wait. \n\nLarge rotating exclamation marks indicate posters you
+    can interact with to learn more about each. See if you can find them all (they are not hidden)
+    Also feel free to explore the building, I find it quite fun to read the exhibits/blackboards.
+    The textures are all closeish to their native resolution so small text is often readable (I have even
+    scanned a QR code in here on the desktop version).\n\nThe hardest challenge with this project was getting
+    the envrioment set up and building/optimizing for web. You can read more above but I got the assets from
+    a data.unity3d file that is now no longer avaiable for download. I got the project working with only a few
+    things missing (most of the lighting/shadows I turned off as a tradeoff so the game runs better) and now you
+    are playing it on the web!"
+  thumbnailTexture: {fileID: 2800000, guid: 9c9dc5bbe92946f9b8d60f15c194ed8b, type: 3}
+  detailTextures:
+  - {fileID: 2800000, guid: cba89a377f847fcc2b57ccb10f917fda, type: 3}
+  - {fileID: 2800000, guid: 9c9dc5bbe92946f9b8d60f15c194ed8b, type: 3}
+  - {fileID: 2800000, guid: f5d5115e103da5e54b7721c83895ec6c, type: 3}
+  rotationInterval: 3
+  year: 2025
+  githubLink: https://github.com/Zebramites/Zebramites

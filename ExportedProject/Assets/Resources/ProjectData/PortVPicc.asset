@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c647ec9c5ec47b8ba15c4d5d0b1e822, type: 3}
+  m_Name: PortVPicc
+  m_EditorClassIdentifier: Assembly-CSharp::ProjectDataAsset
+  projectName: Optimal PICC Line Removal
+  detailedDescription: While I was undergoing chemo, I had a PICC line (long IV to central vein) to well
+  recieve chemo. Essentially the question was "when is the best time to replace/take out this line". You
+  can't keep it forever, as at a certain point the risk of infection becomes too high. However there is also some
+  cost/risk associated with taking and placing a new one, as the new one could have gotten infected during placement etc.
+  I also was a regular paitent to the ER, and going with a PICC line already inserted means instant IV access vs having to wait
+  potentially hours to get a normal IV and antibiotics.\n\nI figured that since their is good data on infection rates/how often I go
+  to the ER, if you assign a "cost" to how bad each of the outcomes is, we could determine the best time to take it out. When it was placed,
+  the idea was taking it out every time, which just due to inertia didn't happen and we had to evalute what to do for the remaining
+  3 cycles. The program worked quite well and using costs for me personally it gave the option of never taking
+  the line out as optimal. I showed my doctor and we talked about it and ended up following its advice and...
+  no infection! It seems more obvious now that is was the best decision but at the time it was super helpful to ground our
+  decisions with at least some data. I found the approach quite comforting in the sense that it's hard to mentally figure whats best
+  when dealing with low probabilty events and so actually showing you gain %X chance of infection with strategy A vs B is helpful.
+  I think simmilar tools could and should have a great place for shared decision making in the medical world.
+  \n\nYou can also try it out at cholley.net/picc_removal!
+  thumbnailTexture: {fileID: 2800000, guid: 72d6caa35eae591a4b8c85797fc15bfa, type: 3}
+  detailTextures:
+  - {fileID: 2800000, guid: 72d6caa35eae591a4b8c85797fc15bfa, type: 3}
+  rotationInterval: 3
+  year: 2024
+  githubLink: https://github.com/Zebramites/Zebramites

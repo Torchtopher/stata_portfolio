@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c647ec9c5ec47b8ba15c4d5d0b1e822, type: 3}
+  m_Name: HXScanner
+  m_EditorClassIdentifier: Assembly-CSharp::ProjectDataAsset
+  projectName: Patient History Scanner
+  detailedDescription: "This was my first big project, the goal was to take scanned
+    handwritten history forms (from people who got a mammogram) and determine if
+    they had a prior case of cancer/surgery. This data is important to know for training
+    an AI for detecting breast cancer. As input are Dicom files which contain
+    a PDF with the report embedded within. After converting to .png, I came up with what I think
+    is a cool algorithm for exactly this type of form. There are 3 parts, 1. the
+    location of all the possible checkboxes are determined, 2. we run OCR to find
+    'Have you had breast cancer/surgery', and then 3. look for a set of 4 boxes
+    that in line with the detected text. This works quite well and was highly specific
+    (which was good because there were tons of these forms and getting one wrong
+    is way worse than a false negative) and is pretty resillant to rotation/different
+    sized/layed out forms. \nFun facts! I worked on this initally in 2021 and got
+    a draft working but it never made it to production, then I made another version
+    that nothing happened with becasue the company I was working with was trying to outsource
+    this problem. BUT the outsourced company couldn't do it and so they ended up
+    buying a final revision of mine and it's since been used on over 10,000 real forms. From what I understand
+    they were trying to use just an the shelf OCR solution but the data is way to messy and inconsistent.
+    A big reason I was succesfull was because there are a lot of checks along the way that if for whatever reason
+    the program can't detect something, it just aborts rather than a single shot and getting it wrong. It's also
+    a neat project to see my development as a programmer. I always remeber my O(n^4) quadrouple nested loop from
+    the first iteration and how far I have come since then."
+  thumbnailTexture: {fileID: 2800000, guid: c88393a2ab5b04ac0b5ca82dd25b1794, type: 3}
+  detailTextures:
+  - {fileID: 2800000, guid: c88393a2ab5b04ac0b5ca82dd25b1794, type: 3}
+  rotationInterval: 3
+  year: 2023
+  githubLink: https://github.com/Zebramites/Zebramites

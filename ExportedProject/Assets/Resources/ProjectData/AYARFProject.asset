@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c647ec9c5ec47b8ba15c4d5d0b1e822, type: 3}
+  m_Name: AYARFProject
+  m_EditorClassIdentifier: Assembly-CSharp::ProjectDataAsset
+  projectName: MiniFRC!
+  detailedDescription: "MiniFRC is a 1/4 scale robotics competition. In 2023 we had various
+    double jointed arms and a claw/roller intake depending on the version. For 2024
+    we built a a ground intake with fixed angle shooter. \n\nOur robot stack is pretty
+    fun, we have the normal ESP32 with NoU2 (adds motor/servo control) but instead
+    of running all our logic code on it we run ROS on a laptop and have used bluetooth/websockets
+    to send commands/receive data. We've done some cool stuff with this setup. In
+    2023, we used the motion planner MoveIt (which is used by the industiral 7dof
+    arms) to plan movements for our arm, which was quite helpful to syncrhonize movements
+    and could plan around obstacles (mostly just the robot). We have a hardware interface
+    that writes to the servos so it 'just worked' with the ROS MoveIt package. \n\nIn
+    2024, we put Apriltags on the side of the robot and the actual field. We then
+    used a ZED2i that could be placed anywhere outside the field and would detect
+    the known position field Apriltags and the ones on the robot which gave us localization
+    using a ROS package: TagSLAM. So the process is camera -> laptop -> figures out
+    postion -> sends motor commands. This was the first (and only?) full field localization
+    in MiniFRC, and also let us (at least in practice) run a 4 note autonomous (we
+    have working path following, but our robot didn't drive until midnight before
+    competition). \n\nIts also a cool project in that a lot the development was essentially
+    trial for bringing it to actual FRC. MoveIt we got working later on the big FRC
+    robot, and TagSLAM has been our localization solution since the 2024."
+  thumbnailTexture: {fileID: 2800000, guid: 3ff161a975508beb1a45c6d7ffa9ac0c, type: 3}
+  detailTextures:
+  - {fileID: 2800000, guid: 3ff161a975508beb1a45c6d7ffa9ac0c, type: 3}
+  - {fileID: 2800000, guid: 1c74951bba46280d6b53b3bc5970c9d1, type: 3}
+  - {fileID: 2800000, guid: 477648d665166c32a95699a29356b397, type: 3}
+  - {fileID: 2800000, guid: 968205e2b003b53e5871ac12ce3011d0, type: 3}
+  - {fileID: 2800000, guid: 7417da2a176dc48928e8949e42ef2cc6, type: 3}
+  - {fileID: 2800000, guid: 2bd9c25a8382d2b518085befd627df58, type: 3}
+  - {fileID: 2800000, guid: d6eadf4422223a67fb3164420c3664a4, type: 3}
+  - {fileID: 2800000, guid: 3222163ef5ebcbc8c9b977891b3b651e, type: 3}
+  rotationInterval: 3
+  year: 2024
+  githubLink: https://github.com/Zebramites/Zebramites

@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c647ec9c5ec47b8ba15c4d5d0b1e822, type: 3}
+  m_Name: FRC
+  m_EditorClassIdentifier: Assembly-CSharp::ProjectDataAsset
+  projectName: 'FRC: Object detection, auto, localization'
+  detailedDescription: "I've done a ton in FRC, but in 2024 a lot of stuff I had
+    worked on finally came together on the robot to make an auto that dynmically
+    stole notes (the game piece) from the other team. One of the first things on the
+    team I worked on (seen in the image also) was object detection/tracking. I've trained
+    our models (ssd_mobilenet and later YOLOv8) and also wrote CUDA code to vastly
+    speed up our preprocessing step. It went from ~15fps detection (bottlenecked by resizing/color
+    conversion) to 30fps after. In the 2024 season I implemented TagSLAM for localization (it can
+    do SLAM but map the tags first and then use that for the rest of competition) which allowed us
+    to do path following and run more complicated autos. I also worked on
+    the auto node which combined all of the above to path follow up until we got close to a note, then
+    run PID to pick the note up, and transition back into path following. It was really cool because
+    if a note was already taken, it would pick up the next closest one and go back to following the right part of the path.
+    \n\nIt did actually work really well in a match (see maker portfolio video), where we completly countered
+    the other teams auto with our robot running to the midline and stealing all their notes."
+  thumbnailTexture: {fileID: 2800000, guid: 46cd933cc70af19df8ece28b089eb86b, type: 3}
+  detailTextures:
+  - {fileID: 2800000, guid: 19a2f2c07206d31f5bd8f3d91931736b, type: 3}
+  - {fileID: 2800000, guid: 46cd933cc70af19df8ece28b089eb86b, type: 3}
+  - {fileID: 2800000, guid: 68a10d6a1a4efdbfea21b0212bafeeef, type: 3}
+  rotationInterval: 4
+  year: 2024
+  githubLink: https://github.com/FRC900/900RobotCode/tree/main/zebROS_ws/src/tf_object_detection/src

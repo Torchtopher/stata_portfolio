@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - IR_Markers
+  - Balcony
+  - Window
+  - Door
+  - Misc
+  - Wall
+  - Floor
+  - Ceiling
+  - Railings
+  - Pillar
+  - Sign
+  - Benches
+  - Chair
+  - Table
+  - Gate
+  - GateParticles
+  - ThroughGate
+  - GateLight
+  - Trashcan
+  - Stairs
+  - Car
+  - Column
+  - Statue
+  - Lights
+  - GateTracker
+  - Curtain
+  - Book
+  - Cushion
+  - Shelf
+  - Sofa
+  - Screen
+  - Sky
+  - Train
+  - rails
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - PostProcessing
+  - Sensors
+  - CutawayView
+  - Ground
+  - Obstacles
+  - CourseObstacles
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

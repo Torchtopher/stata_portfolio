@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c647ec9c5ec47b8ba15c4d5d0b1e822, type: 3}
+  m_Name: Bioinformatics
+  m_EditorClassIdentifier: Assembly-CSharp::ProjectDataAsset
+  projectName: Bioinformatics
+  detailedDescription: This is the bioinformatics work I did for the Holley Lab. Essentially the problem is to determine the sites of interactions (methylation) between RNA and snoRNAs. The way I went about this was by using snoGloBe which is a tool that uses machine learning to predict exactly where these interactions occur. However in practice it is not very useful as it outputs millions of interactions, most of which are completly infesaible. To fix this, I take the snoGloBe output and use IntaRNA (which predicts the strenght of the bond between the two sequences) and discard all the low energy interactions. Finally my program makes a file viewable in the UCSC genome browser along with the IntaRNA "arts" for manual analysis (see images to right).\n\nI also reworked snoGloBe and my code to run on the Duke Computer Cluster (which uses SLURM), which was a speedup equal to the number of cores to throw at it (which was easily up to 10x faster than locally).\n\nMany lab members have benifted from the analysis pipeline and some of the predictions made have been used in grant applications! Actually testing these interactions is pretty costly/time consuming but hopefully soon one of them will be validated.
+  thumbnailTexture: {fileID: 2800000, guid: 1cf197381651113508e861076ef882ea, type: 3}
+  detailTextures:
+  - {fileID: 2800000, guid: 1cf197381651113508e861076ef882ea, type: 3}
+  - {fileID: 2800000, guid: 5fa04e5e531b58e3ba8512af6bfac901, type: 3}
+  rotationInterval: 3
+  year: 2024
+  githubLink: https://github.com/Zebramites/Zebramites

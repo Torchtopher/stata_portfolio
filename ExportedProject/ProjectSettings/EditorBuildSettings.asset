@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/FlightGogglesRenderer/FlightGoggles/Scenes/Top_Level_Scene.unity
+    guid: 00a0e5bde94a51d43939b01eafdbcb0f
+  - enabled: 1
+    path: Assets/Scenes/Stata_GroundFloor.unity
+    guid: 3d4b9a2a143da59469c87aab7a729764
+  - enabled: 0
+    path: Assets/Scenes/Stata_Staircase.unity
+    guid: a1b4edc6c56812a44b19511ee966d122
+  - enabled: 0
+    path: Assets/Scenes/Stata_Basement.unity
+    guid: d7ea874550eafa14da71f253cfce4cad
+  - enabled: 0
+    path: Assets/Scenes/Abandoned_Factory_Sunset.unity
+    guid: b9c96cd4b656e77459af2baf0712dcb5
+  - enabled: 0
+    path: Assets/NYC_Subway_Station_fbx/NYC_Subway.unity
+    guid: 997a846ea3aa2a94f84c01c8d8ec007b
+  - enabled: 0
+    path: Assets/[Butterfly World] ArchViz Interior Vol.01/A_Scene/Butterfly_World.unity
+    guid: d43f58ba965d35741bf1e354457d6fd2
+  - enabled: 0
+    path: Assets/Museum_VR_Ancient_Cultures_Pack/Museum_Day_Small.unity
+    guid: 68872e5ee3e1605499212795649c1c77
+  - enabled: 0
+    path: Assets/Museum_VR_Ancient_Cultures_Pack/Museum_Day_Multiroom.unity
+    guid: 7e575c40a5b288041b41a12bdddb9145
+  - enabled: 0
+    path: Assets/hazelwoodloft/Hazelwood_Loft_Full_Night.unity
+    guid: e3a99c0043ea7ba42a1346ca86f6f898
+  m_configObjects: {}
