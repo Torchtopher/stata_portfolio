@@ -70,8 +70,8 @@ public class GroundController : MonoBehaviour
 
     private void Update()
     {
-        // Toggle cursor lock with Escape (unless UI is open)
-        if (Input.GetKeyDown(KeyCode.Escape))
+        // Toggle cursor lock with left click (don't want to get stuck with no rotating in fullscreen)
+        if (Input.GetMouseButtonDown(0) && !Screen.fullScreen)
         {
             // Check if UI is open
             ProjectDetailUI detailUI = FindObjectOfType<ProjectDetailUI>();

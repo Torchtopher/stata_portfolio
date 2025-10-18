@@ -7,7 +7,8 @@
 # ========================================
 # CUSTOM EXCLUSIONS - Assets & Scenes
 # ========================================
-
+ExportedProject/Logs
+ExportedProject/UserSettings
 # Exclude all scene files
 Assets/Scenes/*.unity
 Assets/Scenes/**/*.unity

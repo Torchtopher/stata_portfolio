@@ -48,8 +48,8 @@ public class FreeCamController : MonoBehaviour
     
     void Update()
     {
-        // Toggle cursor lock with Escape
-        if (Input.GetKeyDown(KeyCode.Escape))
+        // Toggle cursor lock with left click
+        if (Input.GetMouseButtonDown(0) && !Screen.fullScreen)
         {
             cursorLocked = !cursorLocked;
             Cursor.lockState = cursorLocked ? CursorLockMode.Locked : CursorLockMode.None;

@@ -14,25 +14,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ProjectDataAsset
   projectName: MiniFRC!
   detailedDescription: "MiniFRC is a 1/4 scale robotics competition. In 2023 we had various
-    double jointed arms and a claw/roller intake depending on the version. For 2024
-    we built a a ground intake with fixed angle shooter. \n\nOur robot stack is pretty
-    fun, we have the normal ESP32 with NoU2 (adds motor/servo control) but instead
-    of running all our logic code on it we run ROS on a laptop and have used bluetooth/websockets
+    double-jointed arms and a claw/roller intake, depending on the version. For 2024
+    we built a ground intake with fixed angle shooter. \n\nOur robot stack is pretty
+    fun, we have the normal ESP32 with NoU2 (adds motor/servo control), but instead
+    of running all our logic code on it, we run ROS on a laptop and used bluetooth/websockets
     to send commands/receive data. We've done some cool stuff with this setup. In
-    2023, we used the motion planner MoveIt (which is used by the industiral 7dof
-    arms) to plan movements for our arm, which was quite helpful to syncrhonize movements
-    and could plan around obstacles (mostly just the robot). We have a hardware interface
+    2023, we used the motion planner MoveIt (which is used by the industrial 7dof
+    arms) to plan movements for our arm, which was quite helpful to synchronize movements
+    and plan around obstacles (mostly just the robot itself). We have a hardware interface
     that writes to the servos so it 'just worked' with the ROS MoveIt package. \n\nIn
-    2024, we put Apriltags on the side of the robot and the actual field. We then
+    2024, we put Apriltags on the side of the robot and the actual competition field. We then
     used a ZED2i that could be placed anywhere outside the field and would detect
-    the known position field Apriltags and the ones on the robot which gave us localization
-    using a ROS package: TagSLAM. So the process is camera -> laptop -> figures out
-    postion -> sends motor commands. This was the first (and only?) full field localization
-    in MiniFRC, and also let us (at least in practice) run a 4 note autonomous (we
+    the field Apriltags (known position) and the tags on the robot. This gave us localization
+    using a ROS package: TagSLAM. So the process is camera -> laptop -> calculate
+    position -> send motor commands. This was the first (and only, as far as I know) full field localization
+    in MiniFRC, and also let us (at least in practice) run a 4 note autonomous routine. (we
     have working path following, but our robot didn't drive until midnight before
-    competition). \n\nIts also a cool project in that a lot the development was essentially
-    trial for bringing it to actual FRC. MoveIt we got working later on the big FRC
-    robot, and TagSLAM has been our localization solution since the 2024."
+    competition). \n\nIt's also a cool project in that a lot the development was essentially
+    trial for actual (full-size) FRC. MoveIt we got working later on the FRC
+    robot, and TagSLAM has been our localization solution since 2024."
   thumbnailTexture: {fileID: 2800000, guid: 3ff161a975508beb1a45c6d7ffa9ac0c, type: 3}
   detailTextures:
   - {fileID: 2800000, guid: 3ff161a975508beb1a45c6d7ffa9ac0c, type: 3}

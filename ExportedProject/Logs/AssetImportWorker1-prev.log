@@ -7,29 +7,29 @@ Distro version:          #85-Ubuntu SMP PREEMPT_DYNAMIC Thu Sep 18 15:26:59 UTC 
 Kernel version:          6.8.0-85-generic
 Architecture:            x86_64
 Available memory:        32014 MB
-Date:                    2025-10-12T02:08:32Z
+Date:                    2025-10-12T15:49:32Z
 [Licensing::Module] Trying to connect to existing licensing client channel...
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-chris" at "2025-10-12T02:08:32.119546Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-chris" at "2025-10-12T15:49:32.215655Z"
 [SignatureVerifier] Application signature verification not supported on this platform.
 [Licensing::Client] Error: HandshakeResponse reported an error:
 	ResponseCode: 505
 	ResponseStatus: Unsupported protocol version '1.17.2'.
 [Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-chris"
 [Licensing::IpcConnector] LicenseClient-chris channel disconnected successfully.
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-chris-6000.2.6" at "2025-10-12T02:08:32.121442Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-chris-6000.2.6" at "2025-10-12T15:49:32.216623Z"
 [SignatureVerifier] Application signature verification not supported on this platform.
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.17.2+ff71f16
-  Session Id:              f9d2d373475f45c18e5f4dadb0ad10e2
-  Correlation Id:          e806698660627f7a77ccd1da228ad372
-  External correlation Id: 1401959081008153218
+  Session Id:              65323e510f484c48aa580fb60e4f531c
+  Correlation Id:          cd778349bcb22acc2d01249788f1f41b
+  External correlation Id: 29935835434339841
   Machine Id:              CkVULiq68Lg8pNhrBvalZA0kDTw=
 [Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-chris-6000.2.6" (connect: 0.00s, validation: 0.00s, handshake: 0.00s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-chris-6000.2.6-notifications" at "2025-10-12T02:08:32.124354Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-chris-6000.2.6-notifications" at "2025-10-12T15:49:32.219472Z"
 [Licensing::Module] Licensing Background thread has ended after 0.00s
 Selected window backend: (null) 
-Gtk-Message: 22:08:32.476: Failed to load module "colorreload-gtk-module"
-Gtk-Message: 22:08:32.476: Failed to load module "window-decorations-gtk-module"
+Gtk-Message: 11:49:32.491: Failed to load module "colorreload-gtk-module"
+Gtk-Message: 11:49:32.491: Failed to load module "window-decorations-gtk-module"
 Desktop is 2560 x 1440 @ 60 Hz
 Initialize udev device monitor.
 
@@ -45,7 +45,7 @@ AssetImportWorker1
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-45003
+42195
 -licensingIpc
 LicenseClient-chris
 -job-worker-count
@@ -56,9 +56,9 @@ LicenseClient-chris
 1
 Successfully changed project path to: /home/chris/code/ripped_flightgoggles/ripped_flightgoggles/ExportedProject
 
-(Unity:257305): Gtk-CRITICAL **: 22:08:32.583: gtk_label_set_text: assertion 'GTK_IS_LABEL (label)' failed
+(Unity:13451): Gtk-CRITICAL **: 11:49:32.599: gtk_label_set_text: assertion 'GTK_IS_LABEL (label)' failed
 
-(Unity:257305): Gtk-CRITICAL **: 22:08:32.584: gtk_label_set_text: assertion 'GTK_IS_LABEL (label)' failed
+(Unity:13451): Gtk-CRITICAL **: 11:49:32.600: gtk_label_set_text: assertion 'GTK_IS_LABEL (label)' failed
 /home/chris/code/ripped_flightgoggles/ripped_flightgoggles/ExportedProject
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-allocator-temp-initial-block-size-main=262144"
@@ -95,18 +95,18 @@ Successfully changed project path to: /home/chris/code/ripped_flightgoggles/ripp
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [126769251334912]  Target information:
+Player connection [128697936583424]  Target information:
 
-Player connection [126769251334912]  * "[IP] 10.50.21.124 [Port] 0 [Flags] 2 [Guid] 1594369887 [EditorId] 1594369887 [Version] 1048832 [Id] LinuxEditor(16,10.50.21.124) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
+Player connection [128697936583424]  * "[IP] 10.50.21.124 [Port] 0 [Flags] 2 [Guid] 2501469351 [EditorId] 2501469351 [Version] 1048832 [Id] LinuxEditor(16,10.50.21.124) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
 
-Player connection [126769251334912]  * "[IP] 192.168.122.1 [Port] 0 [Flags] 2 [Guid] 1594369887 [EditorId] 1594369887 [Version] 1048832 [Id] LinuxEditor(16,10.50.21.124) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
+Player connection [128697936583424]  * "[IP] 192.168.122.1 [Port] 0 [Flags] 2 [Guid] 2501469351 [EditorId] 2501469351 [Version] 1048832 [Id] LinuxEditor(16,10.50.21.124) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
 
-Player connection [126769251334912]  * "[IP] 10.191.94.1 [Port] 0 [Flags] 2 [Guid] 1594369887 [EditorId] 1594369887 [Version] 1048832 [Id] LinuxEditor(16,10.50.21.124) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
+Player connection [128697936583424]  * "[IP] 10.191.94.1 [Port] 0 [Flags] 2 [Guid] 2501469351 [EditorId] 2501469351 [Version] 1048832 [Id] LinuxEditor(16,10.50.21.124) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
 
-Player connection [126769251334912]  * "[IP] 172.17.0.1 [Port] 0 [Flags] 2 [Guid] 1594369887 [EditorId] 1594369887 [Version] 1048832 [Id] LinuxEditor(16,10.50.21.124) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
+Player connection [128697936583424]  * "[IP] 172.17.0.1 [Port] 0 [Flags] 2 [Guid] 2501469351 [EditorId] 2501469351 [Version] 1048832 [Id] LinuxEditor(16,10.50.21.124) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
 
-Player connection [126769251334912] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [126769251334912] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [128697936583424] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [128697936583424] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 7
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -121,7 +121,7 @@ Library Redirect Path: Library/
 Active build profile path: `Assets/Settings/Build Profiles/Web - Desktop - Release.asset`
 Got setting from build profile YAML, name `m_BuildTarget`, value `20`
 Got setting from build profile YAML, name `m_Subtarget`, value `0`
-Refreshing native plugins compatible for Editor in 0.10 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.07 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.2.6f1 (cc51a95c0300)
 [Subsystems] Discovering subsystems at path /home/chris/Unity/Hub/Editor/6000.2.6f1/Editor/Data/Resources/UnitySubsystems
@@ -144,52 +144,52 @@ blend_equation_advanced_coherent GL_NVX_blend_equation_advanced_multi_draw_buffe
 der_passthrough GL_NV_gpu_program4 GL_NV_internalformat_sample_query GL_NV_gpu_program4_1 GL_NV_gpu_program5 GL_NV_gpu_program5_mem_extended GL_NV_gpu_program_fp64 GL_NV_gpu_program_multiview GL_NV_gpu_shader5 GL_NV_half_float GL_NV_light_max_exponent GL_NV_memory_attachment GL_NV_mesh_shader GL_NV_multisample_coverage GL_NV_multisample_filter_hint GL_NV_occlusion_query GL_NV_packed_depth_stencil GL_NV_parameter_buffer_object GL_NV_parameter_buffer_object2 GL_NV_path_rendering GL_NV_path_rendering_shared_edge GL_NV_pixel_data_range GL_NV_point_sprite GL_NV_primitive_restart GL_NV_primitive_shading_rate GL_NV_query_resource GL_NV_query_resource_tag GL_NV_register_combiners GL_NV_register_combiners2 GL_NV_representative_fragment_test GL_NV_sample_locations GL_NV_sample_mask_override_coverage GL_NV_scissor_exclusive GL_NV_shader_atomic_counters GL_NV_shader_atomic_float GL_NV_shader_atomic_float64 GL_NV_shader_atomic_fp16_vector GL_NV_shader_atomic_int64 GL_NV_shader_buffer_load GL_NV_shader_storage_buffer_obje
 ct GL_NV_shader_subgroup_partitioned GL_NV_shader_texture_footprint GL_NV_shading_rate_image GL_NV_stereo_view_rendering GL_NV_texgen_reflection GL_NV_texture_barrier GL_NV_texture_compression_vtc GL_NV_texture_dirty_tile_map GL_NV_texture_env_combine4 GL_NV_texture_multisample GL_NV_texture_rectangle GL_NV_texture_rectangle_compressed GL_NV_texture_shader GL_NV_texture_shader2 GL_NV_texture_shader3 GL_NV_transform_feedback GL_NV_transform_feedback2 GL_NV_uniform_buffer_unified_memory GL_NV_uniform_buffer_std430_layout GL_NV_vdpau_interop GL_NV_vdpau_interop2 GL_NV_vertex_array_range GL_NV_vertex_array_range2 GL_NV_vertex_attrib_integer_64bit GL_NV_vertex_buffer_unified_memory GL_NV_vertex_program GL_NV_vertex_program1_1 GL_NV_vertex_program2 GL_NV_vertex_program2_option GL_NV_vertex_program3 GL_NV_viewport_array2 GL_NV_viewport_swizzle GL_NVX_conditional_render GL_NV_gpu_multicast GL_NVX_progress_fence GL_NVX_gpu_memory_info GL_NVX_nvenc_interop GL_NV_shader_thread_group GL_NV_shader_thread_shuffle GL_KHR_b
 lend_equation_advanced GL_KHR_blend_equation_advanced_coherent GL_OVR_multiview GL_OVR_multiview2 GL_SGIS_generate_mipmap GL_SGIS_texture_lod GL_SGIX_depth_texture GL_SGIX_shadow GL_SUN_slice_accum
-OPENGL LOG: Creating OpenGL 4.5 graphics device ; Context level  <OpenGL 4.5> ; Context handle 434185160
+OPENGL LOG: Creating OpenGL 4.5 graphics device ; Context level  <OpenGL 4.5> ; Context handle -1828370360
 Initialize mono
 Mono path[0] = '/home/chris/Unity/Hub/Editor/6000.2.6f1/Editor/Data/Managed'
 Mono path[1] = '/home/chris/Unity/Hub/Editor/6000.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux'
 Mono config path = '/home/chris/Unity/Hub/Editor/6000.2.6f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56305
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56451
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /home/chris/Unity/Hub/Editor/6000.2.6f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /home/chris/Unity/Hub/Editor/6000.2.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: /home/chris/Unity/Hub/Editor/6000.2.6f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0.002490 seconds.
-- Loaded All Assemblies, in  0.392 seconds
+Registered in 0.002421 seconds.
+- Loaded All Assemblies, in  0.335 seconds
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.342 seconds
-Domain Reload Profiling: 734ms
-	BeginReloadAssembly (93ms)
+- Finished resetting the current domain, in  0.311 seconds
+Domain Reload Profiling: 645ms
+	BeginReloadAssembly (75ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (41ms)
+	RebuildCommonClasses (39ms)
 	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (54ms)
-	LoadAllAssembliesAndSetupDomain (194ms)
-		LoadAssemblies (92ms)
+	initialDomainReloadingComplete (48ms)
+	LoadAllAssembliesAndSetupDomain (163ms)
+		LoadAssemblies (75ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (191ms)
-			TypeCache.Refresh (190ms)
-				TypeCache.ScanAssembly (174ms)
+		AnalyzeDomain (160ms)
+			TypeCache.Refresh (159ms)
+				TypeCache.ScanAssembly (146ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (343ms)
+	FinalizeReload (311ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (304ms)
+		SetupLoadedEditorAssemblies (273ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (57ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (62ms)
-			ProcessInitializeOnLoadAttributes (123ms)
-			ProcessInitializeOnLoadMethodAttributes (58ms)
+			InitializePlatformSupportModulesInManaged (53ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (57ms)
+			ProcessInitializeOnLoadAttributes (98ms)
+			ProcessInitializeOnLoadMethodAttributes (61ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -210,133 +210,185 @@ Got setting from build profile YAML, name `m_Development`, value `0`
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
-AutoLocale: current locale expects 'C' but got 'en_US.UTF-8'Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
-- Loaded All Assemblies, in  0.536 seconds
+- Loaded All Assemblies, in  0.382 seconds
 Refreshing native plugins compatible for Editor in 0.05 ms, found 0 plugins.
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.374 seconds
-Domain Reload Profiling: 909ms
-	BeginReloadAssembly (312ms)
+- Finished resetting the current domain, in  0.340 seconds
+Domain Reload Profiling: 721ms
+	BeginReloadAssembly (167ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (129ms)
+		DisableScriptedObjects (11ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (39ms)
-	RebuildCommonClasses (42ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (27ms)
-	LoadAllAssembliesAndSetupDomain (144ms)
-		LoadAssemblies (165ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (142ms)
+		LoadAssemblies (156ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (38ms)
-			TypeCache.Refresh (27ms)
-				TypeCache.ScanAssembly (18ms)
+		AnalyzeDomain (35ms)
+			TypeCache.Refresh (24ms)
+				TypeCache.ScanAssembly (17ms)
 			BuildScriptInfoCaches (7ms)
 			ResolveRequiredComponents (2ms)
-	FinalizeReload (374ms)
+	FinalizeReload (340ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (251ms)
+		SetupLoadedEditorAssemblies (230ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
+			InitializePlatformSupportModulesInManaged (6ms)
 			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (85ms)
-			ProcessInitializeOnLoadAttributes (120ms)
-			ProcessInitializeOnLoadMethodAttributes (30ms)
+			BeforeProcessingInitializeOnLoad (75ms)
+			ProcessInitializeOnLoadAttributes (111ms)
+			ProcessInitializeOnLoadMethodAttributes (29ms)
 			AfterProcessingInitializeOnLoad (6ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (21ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+AutoLocale: current locale expects 'C' but got 'en_US.UTF-8'Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
 Refreshing native plugins compatible for Editor in 0.08 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 948 unused Assets / (135.1 KB). Loaded Objects now: 1570.
-Memory consumption went from 64.9 MB to 64.7 MB.
-Total: 4.742254 ms (FindLiveObjects: 0.188173 ms CreateObjectMapping: 0.039143 ms MarkObjects: 4.294224 ms  DeleteObjects: 0.220062 ms)
+Unloading 950 unused Assets / (112.9 KB). Loaded Objects now: 1552.
+Memory consumption went from 64.8 MB to 64.7 MB.
+Total: 5.390751 ms (FindLiveObjects: 0.153668 ms CreateObjectMapping: 0.043652 ms MarkObjects: 4.632218 ms  DeleteObjects: 0.560512 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 34222.083069 seconds.
-  path: Assets/Resources/ProjectData/StataBuilding_Textures/unity_build_report.png
-  artifactKey: Guid(f5d5115e103da5e54b7721c83895ec6c) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Resources/ProjectData/StataBuilding_Textures/unity_build_report.png using Guid(f5d5115e103da5e54b7721c83895ec6c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1c119d1a1178acbfd46a1e0e2c5ee333') in 0.141910033 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+  Time since last request: 1162.717791 seconds.
+  path: Assets/Resources/ProjectData/AYARFProject_Textures/9.5_starting_back.jpg
+  artifactKey: Guid(2bd9c25a8382d2b518085befd627df58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ProjectData/AYARFProject_Textures/9.5_starting_back.jpg using Guid(2bd9c25a8382d2b518085befd627df58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '174fb7684e0f7440699de2e7f424ee4b') in 0.053422528 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/_Recovery/0 (45).unity
-  artifactKey: Guid(c8ff72af4e0a913c8934477e3f9dfa2e) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/_Recovery/0 (45).unity using Guid(c8ff72af4e0a913c8934477e3f9dfa2e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '49f7bdacc130f9f9b4fb88ef1f85ca7b') in 0.004346302 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+  Time since last request: 0.000010 seconds.
+  path: Assets/Resources/ProjectData/AYARFProject_Textures/us_w_apriltags.JPG
+  artifactKey: Guid(3222163ef5ebcbc8c9b977891b3b651e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ProjectData/AYARFProject_Textures/us_w_apriltags.JPG using Guid(3222163ef5ebcbc8c9b977891b3b651e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a5391b748c2b1e77f84bec0fa50fd228') in 0.003685442 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000131 seconds.
-  path: Assets/Resources/ProjectData/StataBuilding_Textures/mit_car.png
-  artifactKey: Guid(9c9dc5bbe92946f9b8d60f15c194ed8b) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Resources/ProjectData/StataBuilding_Textures/mit_car.png using Guid(9c9dc5bbe92946f9b8d60f15c194ed8b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c98bdb24021c0205f93f87ec3bf4761e') in 0.007553617 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000115 seconds.
-  path: Assets/Scenes/Stata_GroundFloor.unity
-  artifactKey: Guid(3d4b9a2a143da59469c87aab7a729764) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Scenes/Stata_GroundFloor.unity using Guid(3d4b9a2a143da59469c87aab7a729764) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1847e453ea545f1d2160846d37fb2d65') in 0.124683222 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+  Time since last request: 0.000090 seconds.
+  path: Assets/Resources/ProjectData/AYARFProject_Textures/9.0scoring.jpg
+  artifactKey: Guid(7417da2a176dc48928e8949e42ef2cc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ProjectData/AYARFProject_Textures/9.0scoring.jpg using Guid(7417da2a176dc48928e8949e42ef2cc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '74edbb38bd4c8a5ea46ad52de33484a7') in 0.003265425 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Prepare
+Refreshing native plugins compatible for Editor in 0.07 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 946 unused Assets / (166.4 KB). Loaded Objects now: 1558.
+Memory consumption went from 64.9 MB to 64.7 MB.
+Total: 4.702319 ms (FindLiveObjects: 0.142577 ms CreateObjectMapping: 0.044303 ms MarkObjects: 4.290577 ms  DeleteObjects: 0.224180 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.362 seconds
+- Loaded All Assemblies, in  0.335 seconds
 Refreshing native plugins compatible for Editor in 0.05 ms, found 0 plugins.
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.405 seconds
-Domain Reload Profiling: 766ms
-	BeginReloadAssembly (140ms)
+- Finished resetting the current domain, in  0.404 seconds
+Domain Reload Profiling: 738ms
+	BeginReloadAssembly (139ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (15ms)
+		DisableScriptedObjects (12ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (31ms)
-	RebuildCommonClasses (42ms)
-	RebuildNativeTypeToScriptingClass (11ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (9ms)
 	initialDomainReloadingComplete (24ms)
-	LoadAllAssembliesAndSetupDomain (144ms)
-		LoadAssemblies (166ms)
+	LoadAllAssembliesAndSetupDomain (123ms)
+		LoadAssemblies (149ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (31ms)
-			TypeCache.Refresh (5ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (20ms)
-			ResolveRequiredComponents (3ms)
-	FinalizeReload (405ms)
+		AnalyzeDomain (28ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (19ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (404ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (279ms)
+		SetupLoadedEditorAssemblies (277ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (95ms)
-			ProcessInitializeOnLoadAttributes (137ms)
-			ProcessInitializeOnLoadMethodAttributes (30ms)
-			AfterProcessingInitializeOnLoad (6ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (96ms)
+			ProcessInitializeOnLoadAttributes (132ms)
+			ProcessInitializeOnLoadMethodAttributes (28ms)
+			AfterProcessingInitializeOnLoad (8ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (21ms)
+		AwakeInstancesAfterBackupRestoration (26ms)
 Refreshing native plugins compatible for Editor in 0.08 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 946 unused Assets / (145.2 KB). Loaded Objects now: 1572.
-Memory consumption went from 65.1 MB to 65.0 MB.
-Total: 5.165919 ms (FindLiveObjects: 0.269666 ms CreateObjectMapping: 0.050265 ms MarkObjects: 4.619955 ms  DeleteObjects: 0.224270 ms)
+Unloading 948 unused Assets / (122.2 KB). Loaded Objects now: 1558.
+Memory consumption went from 64.9 MB to 64.8 MB.
+Total: 4.585400 ms (FindLiveObjects: 0.142487 ms CreateObjectMapping: 0.037410 ms MarkObjects: 4.164601 ms  DeleteObjects: 0.240190 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.317 seconds
+Refreshing native plugins compatible for Editor in 0.05 ms, found 0 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.345 seconds
+Domain Reload Profiling: 662ms
+	BeginReloadAssembly (126ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (27ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (121ms)
+		LoadAssemblies (141ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (26ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (18ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (346ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (230ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (75ms)
+			ProcessInitializeOnLoadAttributes (117ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (19ms)
+Refreshing native plugins compatible for Editor in 0.08 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 948 unused Assets / (106.2 KB). Loaded Objects now: 1558.
+Memory consumption went from 64.9 MB to 64.8 MB.
+Total: 4.490332 ms (FindLiveObjects: 0.160642 ms CreateObjectMapping: 0.039353 ms MarkObjects: 4.073119 ms  DeleteObjects: 0.216376 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
@@ -344,3 +396,24 @@ AssetImportWorker is now disconnected from the server
 Process exiting
 
 SDL leaked 2 allocations
+Internal: Possible leak. All render target surfaces should be removed from IdMap when destructed using RenderTargetMap::Remove(RenderSurfaceBase* rs).
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 Stacktrace::GetStacktrace(int)
+ #2 DebugStringToFile(DebugStringToFileData const&)
+ #3 AssertImplementation(char const*, int, int, char const*, EntityId)
+ #4 RenderTargetMap::Cleanup()
+ #5 DestroyGfxDevice()
+ #6 DoQuitEditorWithExitCode(int, bool)
+ #7 RunAssetImporterV2()
+ #8 Application::InitializeProject()
+ #9 InitializeUnity(void*)
+ #10 ???
+ #11 ???
+ #12 ???
+ #13 g_main_loop_run
+ #14 gtk_main
+ #15 main
+ #16 __libc_start_call_main
+ #17 __libc_start_main_alias_2
+ #18 ???
+

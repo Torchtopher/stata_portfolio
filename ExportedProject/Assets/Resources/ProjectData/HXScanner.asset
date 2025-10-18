@@ -13,18 +13,18 @@ MonoBehaviour:
   m_Name: HXScanner
   m_EditorClassIdentifier: Assembly-CSharp::ProjectDataAsset
   projectName: Patient History Scanner
-  detailedDescription: "This was my first big project, the goal was to take scanned
-    handwritten history forms (from people who got a mammogram) and determine if
-    they had a prior case of cancer/surgery. This data is important to know for training
-    an AI for detecting breast cancer. As input are Dicom files which contain
+  detailedDescription: "This was my first big programming project. The goal was to take scanned
+    handwritten patient history forms (from people who got a mammogram) and determine if
+    they had a history of breast cancer and/or prior surgery. This data is important to know for training
+    an AI for detecting breast cancer. The inputs are Dicom files which contain
     a PDF with the report embedded within. After converting to .png, I came up with what I think
-    is a cool algorithm for exactly this type of form. There are 3 parts, 1. the
-    location of all the possible checkboxes are determined, 2. we run OCR to find
-    'Have you had breast cancer/surgery', and then 3. look for a set of 4 boxes
-    that in line with the detected text. This works quite well and was highly specific
-    (which was good because there were tons of these forms and getting one wrong
-    is way worse than a false negative) and is pretty resillant to rotation/different
-    sized/layed out forms. \nFun facts! I worked on this initally in 2021 and got
+    is a cool algorithm for exactly this type of form. There are 3 parts: first, the
+    location of all the possible checkboxes are determined; second, we run OCR to find
+    'Have you had breast cancer/surgery', and finally, look for a set of 4 boxes
+    that are in line with the detected text. This works quite well and was highly specific
+    (which was good because the company did not want any cancer/surgery patients in their dataset).
+    It's also pretty resillant to variability in the scan itself (rotation/different
+    sized/layed out forms). \n\nFun facts! I worked on this initially in 2021 and got
     a draft working but it never made it to production, then I made another version
     that nothing happened with becasue the company I was working with was trying to outsource
     this problem. BUT the outsourced company couldn't do it and so they ended up

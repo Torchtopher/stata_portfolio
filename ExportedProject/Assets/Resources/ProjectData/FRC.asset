@@ -13,20 +13,20 @@ MonoBehaviour:
   m_Name: FRC
   m_EditorClassIdentifier: Assembly-CSharp::ProjectDataAsset
   projectName: 'FRC: Object detection, auto, localization'
-  detailedDescription: "I've done a ton in FRC, but in 2024 a lot of stuff I had
-    worked on finally came together on the robot to make an auto that dynmically
-    stole notes (the game piece) from the other team. One of the first things on the
-    team I worked on (seen in the image also) was object detection/tracking. I've trained
+  detailedDescription: "I've done a ton of different projects in FRC, but in 2024 a lot of stuff I had
+    worked on finally came together to make a robot that could dynmically
+    steal notes (the game piece) from the other team during the autonomous mode. One of the first things I worked on
+    (see image) was object detection/tracking. I've trained
     our models (ssd_mobilenet and later YOLOv8) and also wrote CUDA code to vastly
-    speed up our preprocessing step. It went from ~15fps detection (bottlenecked by resizing/color
-    conversion) to 30fps after. In the 2024 season I implemented TagSLAM for localization (it can
-    do SLAM but map the tags first and then use that for the rest of competition) which allowed us
+    speed up our preprocessing step: it went from ~15fps detection (bottlenecked by resizing/color
+    conversion) to 30fps. In the 2024 season, I implemented TagSLAM for localization. As a side note: it can
+    do SLAM but for our use we mapped the tags first and use that map for the rest of competition. This allowed us
     to do path following and run more complicated autos. I also worked on
     the auto node which combined all of the above to path follow up until we got close to a note, then
     run PID to pick the note up, and transition back into path following. It was really cool because
-    if a note was already taken, it would pick up the next closest one and go back to following the right part of the path.
-    \n\nIt did actually work really well in a match (see maker portfolio video), where we completly countered
-    the other teams auto with our robot running to the midline and stealing all their notes."
+    if a note was already taken, it would pick up the next closest one and go back to following the correct part of the path.
+    \n\nIt did actually work really well in a match (see maker portfolio video), where we completely countered
+    the other team's auto with our robot running to the midline and stealing all their notes."
   thumbnailTexture: {fileID: 2800000, guid: 46cd933cc70af19df8ece28b089eb86b, type: 3}
   detailTextures:
   - {fileID: 2800000, guid: 19a2f2c07206d31f5bd8f3d91931736b, type: 3}
