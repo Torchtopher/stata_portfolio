@@ -15,8 +15,8 @@ MonoBehaviour:
   projectName: Patient History Scanner
   detailedDescription: "This was my first big programming project. The goal was to take scanned
     handwritten patient history forms (from people who got a mammogram) and determine if
-    they had a history of breast cancer and/or prior surgery. This data is important to know for training
-    an AI for detecting breast cancer. The inputs are Dicom files which contain
+    they had a history of breast cancer and/or prior surgery. This data is important for training
+    an AI to detect breast cancer.\n\nThe inputs are Dicom files which contain
     a PDF with the report embedded within. After converting to .png, I came up with what I think
     is a cool algorithm for exactly this type of form. There are 3 parts: first, the
     location of all the possible checkboxes are determined; second, we run OCR to find
@@ -24,19 +24,16 @@ MonoBehaviour:
     that are in line with the detected text. This works quite well and was highly specific
     (which was good because the company did not want any cancer/surgery patients in their dataset).
     It's also pretty resillant to variability in the scan itself (rotation/different
-    sized/layed out forms). \n\nFun facts! I worked on this initially in 2021 and got
-    a draft working but it never made it to production, then I made another version
-    that nothing happened with becasue the company I was working with was trying to outsource
-    this problem. BUT the outsourced company couldn't do it and so they ended up
-    buying a final revision of mine and it's since been used on over 10,000 real forms. From what I understand
-    they were trying to use just an the shelf OCR solution but the data is way to messy and inconsistent.
-    A big reason I was succesfull was because there are a lot of checks along the way that if for whatever reason
-    the program can't detect something, it just aborts rather than a single shot and getting it wrong. It's also
-    a neat project to see my development as a programmer. I always remeber my O(n^4) quadrouple nested loop from
-    the first iteration and how far I have come since then."
+    sized/layed out forms).\n\nFun fact! I got a draft working in 2021, but never made it to production, 
+    as the company tried to outsource the problem to a larger vendor. 
+    BUT they were unable to make it work - and so my final revision was purchased 
+    and has since been used on over 10,000 patient forms. From what I understand
+    the data is way too messy/inconsistent for the off the shelf OCR solution they tried. 
+    It's also a neat project to see my development as a programmer. I always remember my O(n^4) 
+    quadruple nested loop from the first iteration and how far I have come since then."
   thumbnailTexture: {fileID: 2800000, guid: c88393a2ab5b04ac0b5ca82dd25b1794, type: 3}
   detailTextures:
   - {fileID: 2800000, guid: c88393a2ab5b04ac0b5ca82dd25b1794, type: 3}
   rotationInterval: 3
-  year: 2023
-  githubLink: https://github.com/Zebramites/Zebramites
+  year: 2022
+  githubLink: https://github.com/Torchtopher/HXScanner

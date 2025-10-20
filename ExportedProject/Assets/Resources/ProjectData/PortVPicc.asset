@@ -13,24 +13,27 @@ MonoBehaviour:
   m_Name: PortVPicc
   m_EditorClassIdentifier: Assembly-CSharp::ProjectDataAsset
   projectName: Optimal PICC Line Removal
-  detailedDescription: While I was undergoing chemo, I had a PICC line (long IV to central vein) to well
-  recieve chemo. Essentially the question was "when is the best time to replace/take out this line". You
-  can't keep it forever, as at a certain point the risk of infection becomes too high. However there is also some
-  cost/risk associated with taking and placing a new one, as the new one could have gotten infected during placement etc.
-  I also was a regular paitent to the ER, and going with a PICC line already inserted means instant IV access vs having to wait
-  potentially hours to get a normal IV and antibiotics.\n\nI figured that since their is good data on infection rates/how often I go
-  to the ER, if you assign a "cost" to how bad each of the outcomes is, we could determine the best time to take it out. When it was placed,
-  the idea was taking it out every time, which just due to inertia didn't happen and we had to evalute what to do for the remaining
-  3 cycles. The program worked quite well and using costs for me personally it gave the option of never taking
-  the line out as optimal. I showed my doctor and we talked about it and ended up following its advice and...
-  no infection! It seems more obvious now that is was the best decision but at the time it was super helpful to ground our
-  decisions with at least some data. I found the approach quite comforting in the sense that it's hard to mentally figure whats best
-  when dealing with low probabilty events and so actually showing you gain %X chance of infection with strategy A vs B is helpful.
-  I think simmilar tools could and should have a great place for shared decision making in the medical world.
-  \n\nYou can also try it out at cholley.net/picc_removal!
+  detailedDescription: While I was undergoing chemo, I had a PICC line (long IV to central vein) to
+  recieve IV medications (chemo). On one hand, you can't keep it forever, as at a certain point the risk of infection becomes too high. 
+  However there is also some cost/risk associated with taking and placing a new one. I also was a regular paitent to the ER, 
+  and going with a PICC line already inserted means instant IV access vs having to wait
+  hours to get a normal IV and antibiotics. The essential question was "when is the best time to replace/take out my PICC line?".
+  \n\nI figured that since I had good data on infection rates/how often I go
+  to the ER, if I assign a "cost" to how bad each of the outcomes is, we could determine the best time to take out the PICC line. 
+  At the time I wrote it, I had four more cycles of chemo to go (plus projected ER visits). The program compared all the possible combinations
+  of line removals (it was in the ~20s) and reported the associated "cost". 
+  You could also vary the costs, of for example infection, and see how it changed the decision.\n\n
+  Using costs for I assigned, the program gave the optimal option as keeping the line until the end of treatment. 
+  I showed my doctor and we talked about it. We ended up following its advice and...
+  no infection! It seems more obvious now that is was the best decision, but at the time it was super helpful to ground our
+  decisions with some data. I found the approach quite comforting in the sense that it's hard to mentally figure what's best
+  when dealing with low probability events, so actually showing you gain regarding the chance of infection
+  with strategy A vs B was helpful. I think similar tools could and should have a great place for 
+  shared decision making in the medical world.
+  \n\nYou can try it out at cholley.net/picc_removal! (link not cickable)
   thumbnailTexture: {fileID: 2800000, guid: 72d6caa35eae591a4b8c85797fc15bfa, type: 3}
   detailTextures:
   - {fileID: 2800000, guid: 72d6caa35eae591a4b8c85797fc15bfa, type: 3}
   rotationInterval: 3
   year: 2024
-  githubLink: https://github.com/Zebramites/Zebramites
+  githubLink: https://github.com/Torchtopher/PICC_placement
