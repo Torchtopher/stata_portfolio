@@ -28,10 +28,9 @@ MonoBehaviour:
     the field Apriltags (known position) and the tags on the robot. This gave us localization
     using a ROS package: TagSLAM. So the process is camera -> laptop -> calculate
     position -> send motor commands. This was the first (and only, as far as I know) full field localization
-    in MiniFRC, and also let us (at least in practice) run a 4 note autonomous routine. (we
-    have working path following, but our robot didn't drive until midnight before
-    competition). \n\nIt's also a cool project in that a lot the development was essentially
-    trial for actual (full-size) FRC. MoveIt we got working later on the FRC
+    in MiniFRC, and also let us (at least in practice) run a 4 note autonomous routine. 
+    \n\nIt's also a cool project in that a lot of the development was essentially
+    trial for actual (full-size) FRC. We later incoperated MoveIt on the FRC
     robot, and TagSLAM has been our localization solution since 2024."
   thumbnailTexture: {fileID: 2800000, guid: 3ff161a975508beb1a45c6d7ffa9ac0c, type: 3}
   detailTextures:

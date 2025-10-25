@@ -12,24 +12,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c647ec9c5ec47b8ba15c4d5d0b1e822, type: 3}
   m_Name: HXScanner
   m_EditorClassIdentifier: Assembly-CSharp::ProjectDataAsset
-  projectName: Patient History Scanner
+  projectName: Patient History Extraction
   detailedDescription: "This was my first big programming project. The goal was to take scanned
     handwritten patient history forms (from people who got a mammogram) and determine if
-    they had a history of breast cancer and/or prior surgery. This data is important for training
-    an AI to detect breast cancer.\n\nThe inputs are Dicom files which contain
-    a PDF with the report embedded within. After converting to .png, I came up with what I think
-    is a cool algorithm for exactly this type of form. There are 3 parts: first, the
-    location of all the possible checkboxes are determined; second, we run OCR to find
+    they had a history of breast cancer and/or prior surgery. This data was important for training
+    an AI to detect breast cancer.\n\nThe inputs are DICOM files which contain
+    a PDF with the report embedded within. After converting to .png, I came up with an algorithm for this particular form. 
+    There are 3 steps: first, the location of all the possible checkboxes are determined; second, we run OCR to find
     'Have you had breast cancer/surgery', and finally, look for a set of 4 boxes
-    that are in line with the detected text. This works quite well and was highly specific
+    that are in line with the detected text. This works quite well and is highly specific
     (which was good because the company did not want any cancer/surgery patients in their dataset).
-    It's also pretty resillant to variability in the scan itself (rotation/different
-    sized/layed out forms).\n\nFun fact! I got a draft working in 2021, but never made it to production, 
+    It's also pretty resilient to variability in the scan itself (rotation/different
+    sized forms).\n\nFun fact! I got a draft working in 2021, but never made it to production, 
     as the company tried to outsource the problem to a larger vendor. 
-    BUT they were unable to make it work - and so my final revision was purchased 
+    However, they were unable to make it work - and so my final revision was purchased 
     and has since been used on over 10,000 patient forms. From what I understand
-    the data is way too messy/inconsistent for the off the shelf OCR solution they tried. 
-    It's also a neat project to see my development as a programmer. I always remember my O(n^4) 
+    the data is way too messy/inconsistent for the off-the-shelf OCR solution they tried. 
+    It's also a neat project to see my development as a programmer. I will always remember my O(n^4) 
     quadruple nested loop from the first iteration and how far I have come since then."
   thumbnailTexture: {fileID: 2800000, guid: c88393a2ab5b04ac0b5ca82dd25b1794, type: 3}
   detailTextures:
