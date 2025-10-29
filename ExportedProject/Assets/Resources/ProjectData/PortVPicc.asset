@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ProjectDataAsset
   projectName: Optimal PICC Line Removal
   detailedDescription: While I was undergoing chemo, I had a PICC line (long IV to central vein) to
-  receive IV medications. On one hand, you can't keep it forever, as at a certain point the risk of infection becomes too high. 
-  However there is also some cost/risk associated with taking it out and placing a new one. I also was a regular patient to the ER, 
+  receive IV medications. Although it's incredibly useful, you can't keep it forever, as at a certain point the risk of infection becomes too high. 
+  However, there is also some cost/risk associated with taking it out and placing a new one. I also was a regular patient in the ER, 
   and going with a PICC line already inserted meant instant IV access vs having to wait
-  hours to get a normal IV. The essential question, was "when is the best time to replace/take out my PICC line?"
+  hours to get a normal IV. The essential question was, "when is the best time to replace/take out my PICC line?"
   \n\nI figured that since I had good data on infection rates/how often I went
   to the ER, if I assigned a "cost" to how bad each of the outcomes was, we could determine the best time to take out the PICC line. 
   When I wrote it, I had four more cycles of chemo to go (plus projected ER visits). The program compared all the possible combinations
@@ -27,8 +27,8 @@ MonoBehaviour:
   I showed my doctor and we talked about it. We ended up following its advice and...
   no infection! It seems more obvious now that it was the best decision, but at the time it was super helpful to ground our
   decisions with some data. I found the approach quite comforting because it's hard to know what's best
-  when dealing with low probability events, so actually showing differences in strategy A vs B was helpful. I think similar tools could be useful  
-  in shared decision making.
+  when dealing with low probability events, so actually showing differences in strategy A vs B was helpful. 
+  I think similar tools could be useful in other kinds of medical shared decision making.
   \n\nYou can try it out at cholley.net/picc_removal! (link not clickable)
   thumbnailTexture: {fileID: 2800000, guid: 72d6caa35eae591a4b8c85797fc15bfa, type: 3}
   detailTextures:

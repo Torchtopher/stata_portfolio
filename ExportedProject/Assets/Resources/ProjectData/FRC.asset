@@ -13,14 +13,14 @@ MonoBehaviour:
   m_Name: FRC
   m_EditorClassIdentifier: Assembly-CSharp::ProjectDataAsset
   projectName: 'FRC: Object detection, autonomous mode, and localization'
-  detailedDescription: "In 2024, many of the project I had worked on finally came together to make a robot that could dynamically
+  detailedDescription: "In 2024, many of the projects I had worked on finally came together to make a robot that could dynamically
     steal notes (game pieces) from the other team during the autonomous mode. One of the first things I worked on
     was object detection/tracking (see images to right). I trained
     our models (ssd_mobilenet and later YOLOv8) and also wrote CUDA code to vastly
     speed up our preprocessing step: it went from ~15fps detection (bottlenecked by resizing/color
-    conversion) to 30fps. In the 2024 season, I implemented TagSLAM for localization. As a side note: it can
-    do SLAM but for our use we mapped the tags first and used that map for the rest of competition. This allowed us
-    to do path following and run more complicated autos. I also worked on
+    conversion) to 30fps.\n\nIn the 2024 season, I implemented TagSLAM for localization. As a side note: it can
+    do SLAM, but for our use we mapped the tags first, and used that map for the rest of competition. This allowed us
+    to do path following and run more complicated autos.\n\nI also worked on
     the auto node which combined all of the above to path follow up until we got close to a note, then
     run PID to pick the note up, and transition back into path following. It was really cool because
     if a note was already taken, it would pick up the next closest one and go back to following the correct part of the path.

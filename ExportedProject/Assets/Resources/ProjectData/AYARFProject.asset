@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c647ec9c5ec47b8ba15c4d5d0b1e822, type: 3}
   m_Name: AYARFProject
   m_EditorClassIdentifier: Assembly-CSharp::ProjectDataAsset
-  projectName: MiniFRC!
+  projectName: MiniFRC
   detailedDescription: "MiniFRC is a 1/4 scale robotics competition. In 2023 we had various
     double-jointed arms and a claw/roller intake, depending on the version. For 2024
     we built a ground intake with fixed angle shooter. \n\nOur robot stack is pretty
-    fun, we have the normal ESP32 with NoU2 (adds motor/servo control), but instead
+    fun. We have the normal ESP32 with NoU2 (adds motor/servo control), but instead
     of running all our logic code on it, we run ROS on a laptop and used bluetooth/websockets
     to send commands/receive data. We've done some cool stuff with this setup. In
     2023, we used the motion planner MoveIt (which is used by the industrial 7dof
@@ -28,9 +28,9 @@ MonoBehaviour:
     the field Apriltags (known position) and the tags on the robot. This gave us localization
     using a ROS package: TagSLAM. So the process is camera -> laptop -> calculate
     position -> send motor commands. This was the first (and only, as far as I know) full field localization
-    in MiniFRC, and also let us (at least in practice) run a 4 note autonomous routine. 
+    in MiniFRC, and also let us (at least in practice) run a 4 game piece autonomous routine. 
     \n\nIt's also a cool project in that a lot of the development was essentially
-    trial for actual (full-size) FRC. We later incoperated MoveIt on the FRC
+    trial for actual (full-size) FRC. We later incorporated MoveIt on the FRC
     robot, and TagSLAM has been our localization solution since 2024."
   thumbnailTexture: {fileID: 2800000, guid: 3ff161a975508beb1a45c6d7ffa9ac0c, type: 3}
   detailTextures:
